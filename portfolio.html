@@ -13,27 +13,27 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="page-header">
       <div class="container page-header__container">
-        <a href="./index.html" class="logo"
+        <a href="./index.html" class="logo page-header__logo"
           ><span class="logo__accent">Web</span>Studio</a
         >
         <nav>
           <ul class="list site-nav">
             <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студия</a>
+            </li>
+            <li class="site-nav__item">
               <a
-                href="./index.html"
+                href="./portfolio.html"
                 class="site-nav__link site-nav__link--active"
-                >Студия</a
+                >Портфолио</a
               >
             </li>
             <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
-            </li>
-            <li class="saite-nav__item">
               <a href="" class="site-nav__link">Контакты</a>
             </li>
           </ul>
@@ -59,14 +59,13 @@
         </ul>
       </div>
     </header>
-
     <main>
       <section class="section portfolio">
         <div class="container">
           <!-- Hidden title -->
           <h1 class="portfolio__title visually-hidden">Портфолио</h1>
 
-          <ul class="button-list">
+          <ul class="button-list list">
             <li class="button-list__item">
               <button type="button" class="button portfolio-button">Все</button>
             </li>
@@ -92,7 +91,7 @@
             </li>
           </ul>
 
-          <ul class="portfolio-list">
+          <ul class="portfolio-list list">
             <li class="portfolio-list__item">
               <div class="portfolio-card">
                 <div class="portfolio-card__thumb">
@@ -103,7 +102,7 @@
                     class="porfolio-card__image"
                   />
                   <div class="portfolio-card__overlay">
-                    <p class="portfolio-card__text">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -128,7 +127,7 @@
                     class="porfolio-card__image"
                   />
                   <div class="portfolio-card__overlay">
-                    <p class="portfolio-card__text">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -155,7 +154,7 @@
                     class="porfolio-card__image"
                   />
                   <div class="portfolio-card__overlay">
-                    <p class="portfolio-card__text">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -180,7 +179,7 @@
                     class="porfolio-card__image"
                   />
                   <div class="portfolio-card__overlay">
-                    <p class="portfolio-card__text">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -205,7 +204,7 @@
                     class="porfolio-card__image"
                   />
                   <div class="portfolio-card__overlay">
-                    <p class="portfolio-card__text">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -230,7 +229,7 @@
                     class="porfolio-card__image"
                   />
                   <div class="portfolio-card__overlay">
-                    <p class="portfolio-card__text">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -257,7 +256,7 @@
                     class="porfolio-card__image"
                   />
                   <div class="portfolio-card__overlay">
-                    <p class="portfolio-card__text">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -282,7 +281,7 @@
                     class="porfolio-card__image"
                   />
                   <div class="portfolio-card__overlay">
-                    <p class="portfolio-card__text">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -307,7 +306,7 @@
                     class="porfolio-card__image"
                   />
                   <div class="portfolio-card__overlay">
-                    <p class="portfolio-card__text">
+                    <p class="portfolio-card__overlay-text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -326,25 +325,25 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="container page-footer">
+    <footer class="page-footer">
+      <div class="container page-footer__container">
         <div class="adress-cotain">
           <a href="" class="logo page-footer__logo"
             ><span class="logo__accent">Web</span>Studio</a
           >
           <address class="adress">
             г. Киев, пр-т Леси Украинки, 26
-            <a href="mailto:info@example.com" class="adress__mail"
+            <a href="mailto:info@example.com" class="adress__link"
               >info@example.com</a
             >
-            <a href="tel:+380991111111" class="adress__tel"
+            <a href="tel:+380991111111" class="adress__link"
               >+38 099 111 11 11</a
             >
           </address>
         </div>
         <div class="join-box">
           <b class="join-box__title">присоединяйтесь</b>
-          <ul class="join-links-list">
+          <ul class="join-links-list list">
             <li class="join-list__item">
               <a href="" class="join-list__link">
                 <svg class="join-list__icon" width="20" height="20">
@@ -379,7 +378,7 @@
           <form name="subscribe-form">
             <b class="subscribe-form__title">Подпишитесь на рассылку</b>
             <input
-              class="subscribe-form__email"
+              class="subscribe-form__imput"
               type="email"
               name="email"
               placeholder="E-mail"
